@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "SCR Ducati Style Ex XBold";
+  src: url("../fonts/SCRDucatiStyleEx_W_XBd.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SCR Ducati Style Regular";
+  src: url("../fonts/SCRDucatiStyle_W_Rg.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SCR Ducati Style Bold";
+  src: url("../fonts/SCRDucatiStyle_W_Bd.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* colors */
+  --yellow: #ffc602;
+  --grey-1: #666666;
+  --grey-2: #707070;
+  --grey-3: #d6d6d6;
+  --black: #000000;
+  --white: #ffffff;
+
+  /* font families */
+  --xbold: "SCR Ducati Style Ex XBold", sans-serif;
+  --regular: "SCR Ducati Style Regular", sans-serif;
+  --bold: "SCR Ducati Style Bold", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ducati", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--regular);
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--grey-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.BackTohome1{
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom, red, #c00);
+  font-weight: 700;
+  
+}
+
+.BackTohome2{
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom, red, #c00);
+  font-weight: 700;
+}
+.login-container {
+  padding: 1rem;
+  text-align: center;
+  border: "3px solid blue";
+  padding-top: 0;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.login-form h1 {
+  width: 500px;
+  margin-bottom: 2.5rem;
+  font-size: 4rem;
+  color: black;
+  font-family: "ducati-extended", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  outline: none;
+  font-size: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottom > p {
+  width: 40%;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.bottom > button {
+  width: 38%;
+  height: 62px;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom, red, #c00);
+  font-weight: 700;
+}
+
+button {
+  background: #c00;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #a00;
+}
