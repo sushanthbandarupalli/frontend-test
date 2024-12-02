@@ -152,7 +152,7 @@ const HomePage = () => {
                 class="sticky-top-wrap"
                 style={{width: "100%", display: "flex"}}
               >
-                <div class="main-menu--left" style={{ width: "40%" }}>
+                <div class="main-menu--left" style={{ width: "40%",marginLeft:"-200px" }}>
                   {/* <div class="hamburger">
                     <ion-icon
                       class="hamburger-icon"
@@ -174,7 +174,7 @@ const HomePage = () => {
                     </li>
                     <li>
                       <p
-                        onClick={() => router("/Orders")}
+                        onClick={() => router("/purchase-history")}
                         style={{ cursor: "pointer" }}
                         class="main-menu--link"
                       >
@@ -206,7 +206,7 @@ const HomePage = () => {
 
                 <ul
                   class="main-menu--list main-menu--list__right"
-                  style={{ width: "40%" ,}}
+                  style={{ width: "40%" ,marginRight:"-200px", paddingLeft:"250px"}}
                 >
                   
                   {state.user ? ( <li>

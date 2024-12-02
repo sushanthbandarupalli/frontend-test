@@ -34,7 +34,12 @@ const router = useNavigate();
 
 
   return (
-    <div style={{ marginTop: "300px" }}>
+    <div style={{
+      marginTop:"230vh",
+      display:"flex",
+      flexDirection:"column",
+      justifyItems:"center"
+       }}>
        <button className="BackTohome1" onClick={handleBack}>
         &larr;   Back
       </button>
@@ -42,7 +47,7 @@ const router = useNavigate();
       <div
         class="tgs-cards"
         style={{
-          marginBottom: "60px",}}
+          marginBottom: "80px"}}
       >
         {allBikes.length &&
         allBikes.map((bike) => (
@@ -56,9 +61,9 @@ const router = useNavigate();
                 class="tgs-card--img"
               />
             </div>
-            <p
+            <p onClick={() => RedirectToSinglePage(bike._id)}
               class="btn btn-yellow tgs-card--yellow-btn"
-              style={{ width: "200px", height: "40px" }}
+              style={{ width: "200px", height: "40px" ,cursor:"pointer"}}
             >
               <span onClick={() => RedirectToSinglePage(bike._id)}>Buy</span>
               <svg

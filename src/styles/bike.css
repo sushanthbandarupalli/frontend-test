@@ -27,17 +27,27 @@
   max-width: 46.5rem;
 }
 
-/* Header */
-.header-logo > img {
-  height: 4.5rem;
+.BackTohome3{
+  position: fixed;
+  z-index: 1;
+  height: 50px;
+  width: 150px;
+  left: 50px;
+  top: 30px;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom, red, #c00);
+  font-weight: 700;
 }
-
+.main{
+  margin-top: 6424px;
+ 
+}
 /* Hero Section */
 .hero {
   min-height: 60rem;
-  height: 100vh;
+  height: 90vh;
   max-height: 108rem;
-  width: 100%;
+  width: 80%;
   position: relative;
   margin-bottom: 6rem;
 }

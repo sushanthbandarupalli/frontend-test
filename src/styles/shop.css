@@ -100,7 +100,6 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,7 +232,7 @@ header {
 }
 
 .sticky-body {
-  top: 32px;
+  top: 21px;
   position: relative;
   max-width: 123rem;
   width: 100%;
@@ -273,9 +272,8 @@ header {
 .main-menu--right {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin-right: -20px;
+  justify-content: space-between;
+  align-items: flex-end; 
   
 }
 

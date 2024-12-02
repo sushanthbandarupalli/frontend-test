@@ -9,7 +9,6 @@
   position: fixed;
   max-width: 192rem;
   width: 100%;
-  
   top: 0px;
   z-index: 1000;
   transition: all 0.5s ease-in-out;
@@ -186,7 +185,7 @@
   width: 100%;
   position: relative;
   margin-bottom: 3rem;
-  margin-top: -110px;
+  margin-top: -240px;
 }
 
 .slide {
